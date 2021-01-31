@@ -4,7 +4,7 @@ function compute()
 	r = document.getElementById("myRange").value;
 	y = document.getElementById("years").value;
 	yrs = 2021 + y;
-	document.getElementById("reslt").innerHTML = "Hello World!"; 
+	document.getElementById("reslt").innerHTML = "Hello World! " + p; 
 }
     
 function slc() {

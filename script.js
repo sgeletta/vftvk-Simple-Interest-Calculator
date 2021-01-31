@@ -1,6 +1,6 @@
 function compute()
 {
-	p = document.getElementById("principal").value;
+	var p = document.getElementById("principal").value;
 	r = document.getElementById("myRange").value;
 	y = document.getElementById("years").value;
 	yrs = 2021 + y;

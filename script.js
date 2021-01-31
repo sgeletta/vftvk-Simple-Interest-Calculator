@@ -5,7 +5,7 @@ function compute()
   y = document.getElementById("years").value;
   yrs = 2021 + y;
   i = document.getElementByID("reslt");
-	i.innerHTML = "If you deposit " + p + ", at an interest rate of " + r + "% you will receive an amount of " + (p*t*r/100) + ", in the year " + yrs; 
+	i.innerHTML = "Get Lost"; 
 };
     
 function slc() {

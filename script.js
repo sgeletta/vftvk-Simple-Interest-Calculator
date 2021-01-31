@@ -3,7 +3,9 @@ function compute()
   p = document.getElementById("principal").value;
   r = document.getElementById("myRange").value;
   y = document.getElementById("years").value;
-  interest = document.getElementByID("result").innerHTML = (p*n*r/100);
+  yrs = 2021 + y;
+  interest = p*n*r/100;
+  document.getElementByID("result").innerHTML = "If you deposit " + p + ", at an interest rate of " + r + "% you will receive an amount of " + interest + ", in the year " + yrs; 
 };
     
 function slc() {

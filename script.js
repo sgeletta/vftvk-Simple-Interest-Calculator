@@ -1,10 +1,11 @@
 function compute()
 {
 	var p = document.getElementById("principal").value;
-	r = document.getElementById("myRange").value;
-	y = document.getElementById("years").value;
-	yrs = 2021 + y;
-	document.getElementById("reslt").innerHTML = "Hello World! " + p; 
+	var r = document.getElementById("myRange").value;
+	var y = document.getElementById("years").value;
+	var yrs = 2021 + y;
+	var i = p*r*y/100;
+	document.getElementById("reslt").innerHTML = "If you deposit " + p + ", at an interest rate of " + r + "% you will receive an amount of " + i + ", in the year " + yrs; 
 }
     
 function slc() {

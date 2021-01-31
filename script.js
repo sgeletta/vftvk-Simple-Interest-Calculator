@@ -1,6 +1,6 @@
 function compute()
 {
- document.getElementByID("reslt").innerHTML = Date(); 
+ Date(); 
 }
     
 function slc() {

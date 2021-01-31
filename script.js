@@ -1,6 +1,6 @@
 function compute()
 {
- Date(); 
+"Hello World"; 
 }
     
 function slc() {

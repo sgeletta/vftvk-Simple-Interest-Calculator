@@ -8,6 +8,7 @@ result.innerHTML = "The interest is " + (p*n*r/100);
 };
     
 function sliderChange(val) {
-document.getElementById('myRange').innerHTML = val;
+ var x = document.getElementById("myRange").value;
+	document.getElementById("res").innerHTML = x;
 }
         

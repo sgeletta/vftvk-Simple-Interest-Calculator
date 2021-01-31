@@ -1,6 +1,6 @@
 function compute()
 {
-"Hello World"; 
+document.getElementById("reslt").innerHTML = "Hello World!"; 
 }
     
 function slc() {

@@ -1,6 +1,5 @@
 function compute()
 {
-  p = document.getElementById("principal").value;
  document.getElementByID("reslt").innerHTML = Date(); 
 }
     

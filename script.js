@@ -1,7 +1,7 @@
 function compute()
 {
   p = document.getElementById("principal").value;
- document.getElementByID("reslt").innerHTML = p; 
+ document.getElementByID("reslt").innerHTML = Date(); 
 }
     
 function slc() {

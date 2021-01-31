@@ -1,11 +1,7 @@
 function compute()
 {
   p = document.getElementById("principal").value;
-  r = document.getElementById("myRange").value;
-  y = document.getElementById("years").value;
-  yrs = 2021 + y;
-  i = document.getElementByID("reslt");
-	i.innerHTML = "Get Lost"; 
+ document.getElementByID("reslt").innerHTML = p; 
 };
     
 function slc() {

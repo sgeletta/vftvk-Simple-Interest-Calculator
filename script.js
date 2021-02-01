@@ -10,7 +10,7 @@ function compute()
      window.alert("input to principal needs to be positive");
     }
     else
-	document.getElementById("reslt").innerHTML = "If you deposit " + p + ", at an interest rate of " + r + "% you will receive an amount of " + i + ", in the year " + yrs; 
+	document.getElementById("reslt").innerHTML = "If you deposit $" + p + ", at an interest rate of " + r + "% you will receive an amount of $" + i + ", in the year " + yrs; 
 }
     
 function slc() {
